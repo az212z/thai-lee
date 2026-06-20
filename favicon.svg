@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="تاي لي">
+  <rect width="64" height="64" rx="14" fill="#B91C1C"/>
+  <path d="M14 40c0-9 8-16 18-16s18 7 18 16" fill="none" stroke="#FCD34D" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="32" cy="40" rx="20" ry="6" fill="#7F1D1D"/>
+  <path d="M22 30c2-6 6-9 10-9M32 30c1-7 5-10 9-11" fill="none" stroke="#FDE68A" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="44" cy="20" r="2.4" fill="#FCD34D"/>
+</svg>

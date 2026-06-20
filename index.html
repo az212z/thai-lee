@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>تاي لي · مطعم تايلندي وآسيوي في جدة | Thai Lee</title>
+<meta name="description" content="تاي لي مطعم تايلندي وآسيوي في جدة — باد تاي، نودلز، كاري تايلندي، ستير فراي وأرز مقلي بنكهات أصيلة. احجز طاولتك أو اطلب الآن. تقييم 4.3 على خرائط قوقل." />
+<meta name="theme-color" content="#B91C1C" />
+<meta name="color-scheme" content="dark" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant" />
+<meta property="og:locale" content="ar_SA" />
+<meta property="og:site_name" content="تاي لي · Thai Lee" />
+<meta property="og:title" content="تاي لي · مطعم تايلندي وآسيوي في جدة" />
+<meta property="og:description" content="باد تاي، نودلز، كاري تايلندي وستير فراي بنكهات أصيلة في جدة. احجز طاولتك أو اطلب الآن." />
+<meta property="og:image" content="https://az212z.github.io/batch9-restaurants/thai-lee/assets/img/tl-4.jpg" />
+<meta property="og:url" content="https://az212z.github.io/batch9-restaurants/thai-lee/" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="تاي لي · مطعم تايلندي وآسيوي في جدة" />
+<meta name="twitter:description" content="باد تاي، نودلز، كاري تايلندي وستير فراي بنكهات أصيلة في جدة." />
+<meta name="twitter:image" content="https://az212z.github.io/batch9-restaurants/thai-lee/assets/img/tl-4.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=Reem+Kufi:wght@500;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "تاي لي",
+  "alternateName": "Thai Lee",
+  "image": "https://az212z.github.io/batch9-restaurants/thai-lee/assets/img/tl-4.jpg",
+  "servesCuisine": ["Thai", "Asian"],
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "جدة",
+    "addressRegion": "مكة المكرمة",
+    "addressCountry": "SA"
+  },
+  "url": "https://az212z.github.io/batch9-restaurants/thai-lee/",
+  "hasMenu": "https://az212z.github.io/batch9-restaurants/thai-lee/#menu",
+  "acceptsReservations": "True",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "1076",
+    "bestRating": "5"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "13:00",
+      "closes": "01:00"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader" aria-hidden="true">
+  <div class="pre-wok">
+    <svg viewBox="0 0 120 80" width="120" height="80" aria-hidden="true">
+      <path d="M18 34c0 18 19 30 42 30s42-12 42-30" fill="none" stroke="#FCD34D" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="60" cy="34" rx="42" ry="9" fill="#7F1D1D"/>
+    </svg>
+  </div>
+</div>
+
+<a href="#main" class="skip-link">تخطَّ إلى المحتوى</a>
+
+<!-- Header -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#hero" class="brand" aria-label="تاي لي — الصفحة الرئيسية">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34">
+          <path d="M8 24c0-7 5.5-12 12-12s12 5 12 12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          <ellipse cx="20" cy="24" rx="13" ry="4" fill="currentColor" opacity=".25"/>
+        </svg>
+      </span>
+      <span class="brand-text"><b>تاي لي</b><small>Thai&nbsp;Lee</small></span>
+    </a>
+
+    <nav class="nav-links" aria-label="التنقل الرئيسي">
+      <a href="#menu">القائمة</a>
+      <a href="#story">قصتنا</a>
+      <a href="#gallery">المعرض</a>
+      <a href="#visit">الموقع</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#reserve" class="btn btn-primary btn-sm">احجز طاولة</a>
+      <button class="burger" id="burger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Full-screen mobile menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="قائمة التنقل" hidden>
+  <button class="mm-close" id="mmClose" aria-label="إغلاق القائمة">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+  </button>
+  <nav class="mm-links" aria-label="روابط القائمة الكاملة">
+    <a href="#menu">القائمة</a>
+    <a href="#story">قصتنا</a>
+    <a href="#gallery">المعرض</a>
+    <a href="#visit">الموقع وساعات العمل</a>
+    <a href="#reserve" class="mm-cta">احجز طاولة أو اطلب</a>
+  </nav>
+  <a class="mm-maps" href="https://www.google.com/maps/search/?api=1&query=Thai%20lee%20Jeddah" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" fill="currentColor"/></svg>
+    موقعنا على خرائط قوقل
+  </a>
+</div>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <img src="assets/img/tl-4.jpg" alt="" width="900" height="900" class="hero-photo" decoding="async" fetchpriority="high" />
+    <div class="hero-veil"></div>
+  </div>
+
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">مطعم تايلندي وآسيوي · جدة</span>
+      <h1>نكهة تايلند<br><em>تُطهى أمامك</em> في قلب جدة</h1>
+      <p class="lede">باد تاي على نار الووك، نودلز وكاري تايلندي وستير فراي بتتبيلات أصيلة. تجربة آسيوية جريئة بطعمٍ يبقى في الذاكرة.</p>
+      <div class="hero-actions">
+        <a href="#reserve" class="btn btn-primary">
+          احجز طاولة
+          <span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M13 5l7 7-7 7M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+        </a>
+        <a href="#menu" class="btn btn-ghost">استعرض القائمة</a>
+      </div>
+      <p class="hero-note">القائمة بالكامل في الموقع · الأسعار حسب القائمة داخل المطعم</p>
+    </div>
+
+    <!-- SIGNATURE MOTION: wok + flame + noodles -->
+    <div class="hero-art" aria-hidden="true">
+      <svg class="wok-scene" viewBox="0 0 420 420" role="img" aria-label="ووك تايلندي بنار وخيوط نودلز">
+        <defs>
+          <radialGradient id="flameGrad" cx="50%" cy="80%" r="70%">
+            <stop offset="0%" stop-color="#FEF3C7"/>
+            <stop offset="35%" stop-color="#FBBF24"/>
+            <stop offset="70%" stop-color="#F97316"/>
+            <stop offset="100%" stop-color="#DC2626"/>
+          </radialGradient>
+          <linearGradient id="wokGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#3f3f46"/>
+            <stop offset="100%" stop-color="#18181b"/>
+          </linearGradient>
+          <linearGradient id="noodleGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FDE68A"/>
+            <stop offset="100%" stop-color="#D97706"/>
+          </linearGradient>
+        </defs>
+
+        <!-- steam -->
+        <g class="steam">
+          <path d="M180 120 q-14 -26 4 -50 q16 -22 -2 -44" />
+          <path d="M214 116 q-12 -24 6 -46 q14 -20 -4 -40" />
+          <path d="M248 122 q-14 -26 4 -48 q16 -22 -2 -42" />
+        </g>
+
+        <!-- flame group (animated; disabled in reduced-motion) -->
+        <g class="flames" transform="translate(210 250)">
+          <path class="flame flame-back" d="M0 0 C-46 -36 -34 -104 -6 -150 C16 -110 6 -78 22 -86 C30 -120 60 -120 50 -70 C70 -96 76 -40 56 -8 C30 24 -28 26 0 0 Z" fill="url(#flameGrad)"/>
+          <path class="flame flame-mid" d="M0 0 C-30 -26 -22 -78 -2 -112 C12 -82 6 -58 16 -64 C22 -90 44 -90 36 -52 C50 -70 56 -30 40 -6 C20 18 -22 18 0 0 Z" fill="#FB923C"/>
+          <path class="flame flame-core" d="M0 0 C-16 -16 -12 -50 0 -76 C10 -54 6 -38 12 -42 C16 -60 30 -58 24 -34 C32 -46 36 -20 26 -4 C14 12 -14 12 0 0 Z" fill="#FEF3C7"/>
+        </g>
+
+        <!-- noodle strands lifting out of the wok -->
+        <g class="noodles" fill="none" stroke="url(#noodleGrad)" stroke-width="5" stroke-linecap="round">
+          <path class="noodle" d="M150 252 C140 190 196 196 178 138 C166 100 206 96 200 60"/>
+          <path class="noodle" d="M196 258 C204 196 250 206 232 150 C220 112 254 112 250 78"/>
+          <path class="noodle" d="M242 252 C260 200 296 214 286 162 C280 130 300 124 300 96"/>
+        </g>
+        <!-- sesame / scallion flecks -->
+        <g class="flecks">
+          <circle class="fleck" cx="186" cy="150" r="4" fill="#FDE68A"/>
+          <rect class="fleck" x="236" y="138" width="9" height="4" rx="2" fill="#4ADE80"/>
+          <circle class="fleck" cx="276" cy="162" r="3.5" fill="#FDE68A"/>
+          <rect class="fleck" x="160" y="176" width="8" height="4" rx="2" fill="#4ADE80"/>
+        </g>
+
+        <!-- wok body (static) -->
+        <g class="wok">
+          <ellipse cx="210" cy="300" rx="132" ry="30" fill="#000" opacity=".25"/>
+          <path d="M70 286 C70 350 130 384 210 384 C290 384 350 350 350 286" fill="url(#wokGrad)"/>
+          <ellipse cx="210" cy="286" rx="140" ry="34" fill="#27272a"/>
+          <ellipse cx="210" cy="286" rx="140" ry="34" fill="none" stroke="#FCD34D" stroke-width="3" opacity=".55"/>
+          <ellipse cx="210" cy="286" rx="118" ry="26" fill="#7F1D1D"/>
+          <path d="M348 286 h54 a8 8 0 0 1 8 8 v6 a8 8 0 0 1 -8 8 h-58" fill="#3f3f46"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <a href="#trust" class="scroll-hint" aria-label="انتقل للأسفل">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+  </a>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust" id="trust" aria-label="الثقة والتقييم">
+  <div class="container trust-inner reveal">
+    <div class="trust-rating">
+      <span class="stars" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2l2.9 6.2 6.6.7-4.9 4.5 1.4 6.6L12 17.8 6 20.5l1.4-6.6L2.5 8.9l6.6-.7z" fill="#FCD34D"/></svg>
+      </span>
+      <div>
+        <strong>4.3 / 5</strong>
+        <span>تقييم 1,076 زائر على خرائط قوقل</span>
+      </div>
+    </div>
+    <ul class="trust-chips">
+      <li>نكهات تايلندية أصيلة</li>
+      <li>طهي على الووك</li>
+      <li>أطباق نباتية متوفرة</li>
+      <li>أجواء حيوية في جدة</li>
+    </ul>
+  </div>
+</section>
+
+<!-- MENU HIGHLIGHTS -->
+<section class="section menu" id="menu">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="eyebrow">أبرز الأطباق</span>
+      <h2>قائمة تنبض بنكهات آسيا</h2>
+      <p>تشكيلة مختارة من مطبخنا التايلندي والآسيوي. الأسعار حسب القائمة داخل المطعم.</p>
+    </header>
+
+    <div class="menu-grid">
+      <article class="dish reveal">
+        <div class="dish-photo"><img src="assets/img/tl-4.jpg" alt="طبق باد تاي بالربيان مع الليمون والكزبرة في وعاء أخضر" width="600" height="600" loading="lazy" decoding="async" /></div>
+        <div class="dish-body">
+          <h3>باد تاي</h3>
+          <p>نودلز الأرز الشهيرة مقلية مع الربيان والفول الأخضر وصلصة التمر الهندي ورشة فول سوداني.</p>
+          <span class="dish-tag">الأكثر طلبًا</span>
+        </div>
+      </article>
+
+      <article class="dish reveal">
+        <div class="dish-photo"><img src="assets/img/tl-11.jpg" alt="وعاء نودلز آسيوية مع براعم الفاصوليا والليمون" width="600" height="600" loading="lazy" decoding="async" /></div>
+        <div class="dish-body">
+          <h3>نودلز آسيوية</h3>
+          <p>نودلز طرية بتتبيلة الووك مع الخضار وبراعم الفاصوليا، خفيفة ومشبعة بالنكهة.</p>
+          <span class="dish-tag">خيار مفضّل</span>
+        </div>
+      </article>
+
+      <article class="dish reveal">
+        <div class="dish-photo"><img src="assets/img/tl-9.jpg" alt="حساء كاري تايلندي حار بالربيان والفطر مع أسياخ مشوية" width="600" height="600" loading="lazy" decoding="async" /></div>
+        <div class="dish-body">
+          <h3>كاري تايلندي</h3>
+          <p>كاري كريمي بحليب جوز الهند والأعشاب التايلندية، يقدّم بدرجات حرارة حسب الرغبة.</p>
+          <span class="dish-tag">حار ولذيذ</span>
+        </div>
+      </article>
+
+      <article class="dish reveal">
+        <div class="dish-photo"><img src="assets/img/tl-10.jpg" alt="أرز مقلي بالخضار الملوّنة والبروكلي والفلفل في وعاء" width="600" height="600" loading="lazy" decoding="async" /></div>
+        <div class="dish-body">
+          <h3>أرز مقلي</h3>
+          <p>أرز مقلي على الووك مع الخضار الطازجة والبصل الأخضر وتتبيلة الصويا المميزة.</p>
+          <span class="dish-tag">طبق جانبي</span>
+        </div>
+      </article>
+
+      <article class="dish reveal">
+        <div class="dish-photo"><img src="assets/img/tl-6.jpg" alt="أسياخ ساتيه مشوية مع صلصة الفول السوداني على طبق أخضر" width="600" height="600" loading="lazy" decoding="async" /></div>
+        <div class="dish-body">
+          <h3>مقبّلات آسيوية</h3>
+          <p>أسياخ ساتيه مشوية وستير فراي خفيف مع صلصة الفول السوداني — بداية مثالية للوجبة.</p>
+          <span class="dish-tag">للمشاركة</span>
+        </div>
+      </article>
+
+      <article class="dish reveal">
+        <div class="dish-photo"><img src="assets/img/tl-7.jpg" alt="حلى أرز لزج بالمانجو وحليب جوز الهند مزيّن بالنعناع" width="600" height="600" loading="lazy" decoding="async" /></div>
+        <div class="dish-body">
+          <h3>حلى المانجو</h3>
+          <p>أرز لزج بحليب جوز الهند مع شرائح المانجو الطازجة — ختام تايلندي حلو ومنعش.</p>
+          <span class="dish-tag">الحلويات</span>
+        </div>
+      </article>
+    </div>
+
+    <p class="menu-foot reveal">جميع الأطباق تُحضّر طازجة عند الطلب · الأسعار والتفاصيل الكاملة حسب القائمة داخل المطعم.</p>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="section story" id="story">
+  <div class="container story-grid">
+    <div class="story-media reveal">
+      <img src="assets/img/tl-5.jpg" alt="الديكور الداخلي لمطعم تاي لي بطابع أحمر جريء وبار عالٍ" width="700" height="900" loading="lazy" decoding="async" />
+    </div>
+    <div class="story-copy reveal">
+      <span class="eyebrow">قصتنا</span>
+      <h2>الجرأة لونها أحمر، ونكهتها تايلندية</h2>
+      <p>وُلد <strong>تاي لي</strong> من شغفٍ بمطبخ تايلند الحيوي: التوازن بين الحلو والحامض والحار، ودخان الووك الذي يمنح كل طبق روحه. صمّمنا المكان ليكون تجربة كاملة — لون أحمر جريء، طاولات حيوية، وأطباق تُطهى أمامك بشغف.</p>
+      <p>من باد تاي إلى الكاري والستير فراي، نختار مكوّنات طازجة ونحترم الوصفة الأصلية، لنقدّم لك طعمًا يقربك من شوارع بانكوك دون أن تغادر جدة.</p>
+      <ul class="story-points">
+        <li><span aria-hidden="true">●</span> وصفات تايلندية أصيلة</li>
+        <li><span aria-hidden="true">●</span> مكوّنات طازجة يوميًا</li>
+        <li><span aria-hidden="true">●</span> أجواء عصرية مفعمة بالحياة</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <header class="section-head reveal">
+      <span class="eyebrow">من داخل تاي لي</span>
+      <h2>لقطات من المكان والأطباق</h2>
+    </header>
+    <div class="gallery-grid">
+      <button class="g-item g-tall reveal" data-img="assets/img/tl-5.jpg" data-cap="بار تاي لي الأحمر الجريء" aria-label="تكبير: بار تاي لي الأحمر">
+        <img src="assets/img/tl-5.jpg" alt="بار مطعم تاي لي بلون أحمر لامع وكراسي عالية" width="500" height="650" loading="lazy" decoding="async" />
+      </button>
+      <button class="g-item reveal" data-img="assets/img/tl-3.jpg" data-cap="تشكيلة أطباق على طاولة المطعم" aria-label="تكبير: تشكيلة أطباق">
+        <img src="assets/img/tl-3.jpg" alt="تشكيلة من الكاري والأرز والمقبّلات على طاولة حمراء" width="500" height="500" loading="lazy" decoding="async" />
+      </button>
+      <button class="g-item reveal" data-img="assets/img/tl-1.jpg" data-cap="واجهة مطعم تاي لي في جدة" aria-label="تكبير: واجهة المطعم">
+        <img src="assets/img/tl-1.jpg" alt="واجهة مطعم تاي لي مع شعاره الأحمر في جدة" width="500" height="500" loading="lazy" decoding="async" />
+      </button>
+      <button class="g-item reveal" data-img="assets/img/tl-9.jpg" data-cap="حساء كاري حار بالربيان" aria-label="تكبير: حساء كاري">
+        <img src="assets/img/tl-9.jpg" alt="حساء كاري تايلندي حار بالربيان والفطر" width="500" height="500" loading="lazy" decoding="async" />
+      </button>
+      <button class="g-item g-wide reveal" data-img="assets/img/tl-10.jpg" data-cap="أرز مقلي بالخضار" aria-label="تكبير: أرز مقلي">
+        <img src="assets/img/tl-10.jpg" alt="أرز مقلي بالخضار الملوّنة في وعاء" width="700" height="500" loading="lazy" decoding="async" />
+      </button>
+      <button class="g-item reveal" data-img="assets/img/tl-7.jpg" data-cap="حلى المانجو بحليب جوز الهند" aria-label="تكبير: حلى المانجو">
+        <img src="assets/img/tl-7.jpg" alt="حلى أرز لزج بالمانجو وحليب جوز الهند" width="500" height="500" loading="lazy" decoding="async" />
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVE / ORDER FORM -->
+<section class="section reserve" id="reserve">
+  <div class="container reserve-grid">
+    <div class="reserve-intro reveal">
+      <span class="eyebrow">احجز أو اطلب</span>
+      <h2>احجز طاولتك أو جهّز طلبك</h2>
+      <p>املأ النموذج وسنجهّز لك ملخّص طلبك. <strong>هذا نموذج تجريبي للعرض</strong> — يحفظ بياناتك على جهازك فقط ولا يُرسل لأي جهة. سيضيف صاحب المطعم رقم الواتساب/الهاتف عند التسليم لاستقبال الحجوزات مباشرة.</p>
+      <div class="reserve-extra">
+        <a class="btn btn-ghost btn-block" href="https://www.google.com/maps/search/?api=1&query=Thai%20lee%20Jeddah" target="_blank" rel="noopener">
+          <span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" fill="currentColor"/></svg></span>
+          الوصول عبر خرائط قوقل
+        </a>
+        <a class="btn btn-ghost btn-block" href="#visit">ساعات العمل والموقع</a>
+      </div>
+    </div>
+
+    <form class="reserve-form reveal" id="reserveForm" novalidate>
+      <div class="field">
+        <label for="rName">الاسم</label>
+        <input id="rName" name="name" type="text" autocomplete="name" required placeholder="اكتب اسمك" />
+        <small class="err" data-for="rName"></small>
+      </div>
+      <div class="field">
+        <label for="rPhone">رقم الجوال</label>
+        <input id="rPhone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" required placeholder="05XXXXXXXX" />
+        <small class="err" data-for="rPhone"></small>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="rGuests">عدد الضيوف</label>
+          <select id="rGuests" name="guests" required>
+            <option value="">اختر</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option>
+            <option>5</option><option>6</option><option>7</option><option>8+</option>
+          </select>
+          <small class="err" data-for="rGuests"></small>
+        </div>
+        <div class="field">
+          <label for="rType">نوع الطلب</label>
+          <select id="rType" name="type" required>
+            <option value="">اختر</option>
+            <option value="حجز طاولة">حجز طاولة</option>
+            <option value="طلب استلام">طلب استلام</option>
+          </select>
+          <small class="err" data-for="rType"></small>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="rDate">التاريخ</label>
+          <input id="rDate" name="date" type="date" required />
+          <small class="err" data-for="rDate"></small>
+        </div>
+        <div class="field">
+          <label for="rTime">الوقت</label>
+          <input id="rTime" name="time" type="time" required />
+          <small class="err" data-for="rTime"></small>
+        </div>
+      </div>
+      <div class="field">
+        <label for="rNotes">ملاحظات <span class="opt">(اختياري)</span></label>
+        <textarea id="rNotes" name="notes" rows="2" placeholder="مثال: طاولة بجانب النافذة، درجة حرارة الكاري..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" id="reserveSubmit">
+        إرسال الطلب
+        <span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M13 5l7 7-7 7M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+      </button>
+      <p class="form-demo-note">نموذج تجريبي · تُحفظ نسخة على جهازك فقط</p>
+
+      <div class="summary" id="summary" hidden aria-live="polite">
+        <h3>ملخّص طلبك</h3>
+        <dl id="summaryList"></dl>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="section visit" id="visit">
+  <div class="container visit-grid">
+    <div class="visit-info reveal">
+      <span class="eyebrow">زورونا</span>
+      <h2>الموقع وساعات العمل</h2>
+      <ul class="visit-list">
+        <li>
+          <span class="vi-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" fill="currentColor"/></svg></span>
+          <div><strong>جدة</strong><span>المملكة العربية السعودية</span></div>
+        </li>
+        <li>
+          <span class="vi-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></span>
+          <div><strong>ساعات العمل</strong><span>يوميًا · 1:00 ظهرًا حتى 1:00 بعد منتصف الليل</span></div>
+        </li>
+        <li>
+          <span class="vi-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+          <div><strong>الخدمات</strong><span>تناول في المطعم · طلبات استلام · مناسبات</span></div>
+        </li>
+      </ul>
+      <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Thai%20lee%20Jeddah" target="_blank" rel="noopener">
+        افتح في خرائط قوقل
+        <span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><path d="M13 5l7 7-7 7M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+      </a>
+    </div>
+    <div class="visit-media reveal">
+      <img src="assets/img/tl-1.jpg" alt="واجهة مطعم تاي لي بشعاره الأحمر في جدة" width="700" height="800" loading="lazy" decoding="async" />
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="container final-inner reveal">
+    <h2>جاهز لتجربة نكهة تايلند؟</h2>
+    <p>احجز طاولتك الآن أو جهّز طلبك، ودع الووك يفعل الباقي.</p>
+    <div class="hero-actions center">
+      <a href="#reserve" class="btn btn-primary">احجز الآن</a>
+      <a href="#menu" class="btn btn-ghost">شاهد القائمة</a>
+    </div>
+    <p class="follow">تابعنا قريبًا على حساباتنا في وسائل التواصل</p>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="foot-brand">
+      <span class="brand-text"><b>تاي لي</b><small>Thai Lee · مطعم تايلندي وآسيوي</small></span>
+      <p>نكهات تايلند الأصيلة في قلب جدة.</p>
+    </div>
+    <nav class="foot-links" aria-label="روابط الفوتر">
+      <a href="#menu">القائمة</a>
+      <a href="#story">قصتنا</a>
+      <a href="#gallery">المعرض</a>
+      <a href="#reserve">احجز</a>
+      <a href="#visit">الموقع</a>
+    </nav>
+  </div>
+  <div class="container foot-bottom">
+    <span>© <span id="year"></span> تاي لي · جميع الحقوق محفوظة</span>
+    <span class="foot-demo">نموذج تجريبي للعرض</span>
+  </div>
+</footer>
+
+<!-- Floating FABs -->
+<div class="fabs" aria-label="إجراءات سريعة">
+  <a class="fab fab-maps" href="https://www.google.com/maps/search/?api=1&query=Thai%20lee%20Jeddah" target="_blank" rel="noopener" aria-label="موقعنا على خرائط قوقل">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9" r="2.5" fill="currentColor"/></svg>
+  </a>
+  <a class="fab fab-reserve" href="#reserve" aria-label="احجز طاولة">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 11h16M6 11V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4M5 11l1 8h12l1-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+  </a>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="عرض الصورة">
+  <button class="lb-close" id="lbClose" aria-label="إغلاق">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+  </button>
+  <figure class="lb-figure">
+    <img id="lbImg" src="" alt="" />
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
